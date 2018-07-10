@@ -1,0 +1,17 @@
+Hay una base de datos 'apitest' con una tabla y dos campos
+
+animal
+	-id_animal (int) autoincrement, clave primaria
+	-name (text)
+	-type (text)
+
+En /config está la configuración de la base de datos con PDO
+	-Hay dos bases de datos, una en mysql y otra en postgresql exactamente iguales
+	-mysql: user->root | password->'' | port-> 3306
+	-PENDIENTE DE HACER postgresql: user->davc2 | password->'' | port-> 5432	
+En /models están los modelos, en este caso el modelo de animal, una clase con atributos y métodos
+En /api están las operaciones para cada uno de los modelos. ej: /api/animal/create.php
+
+
+Fuente: Traversity Media
+https://www.youtube.com/watch?v=OEWXbpUMODk&t=691s&index=7&list=WL
